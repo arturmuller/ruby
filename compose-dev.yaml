@@ -3,7 +3,7 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: docker/dev-environments-ruby:stable-1
+    image: artmllr/ruby:latest
     init: true
     volumes:
     - type: bind
